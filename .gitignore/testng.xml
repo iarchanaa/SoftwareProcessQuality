@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/avkal/Desktop/Masters/Semister 2/Software process Quality/A2">
+        <classes>
+            <class name="test">
+                <methods>
+                    <include name="test_searchMask"/>
+                    <include name="signIn"/>
+                    <include name="test_addCartCheckOut"/>
+                    <include name="deleteFromCart"/>
+                    <include name="env_Setup"/>
+
+                </methods>
+            </class>
+
+
+        </classes>
+    </test>
+</suite>
